@@ -180,6 +180,12 @@ Vérification du routage avec les logs du reverse proxy. Envoie de plusieurs req
 ![Sticky result](Rapport/images/Sticky-result.png)
 
 
+## Etape 7 Sécurisation de Traefik avec HTTPS
+
+### Générer un certificat auto-signé
+Générer un certificat et une clé avec openssl:
+- traefik.key : Clé privée.
+- traefik.crt : Certificat.
 
 # Objectifs
 
